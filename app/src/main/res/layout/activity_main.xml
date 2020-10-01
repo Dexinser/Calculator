@@ -33,6 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="AC"
+                android:gravity="center"
             android:textSize="30sp"/>
 
         <Button
@@ -41,12 +42,14 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:text="DEL"
+                android:gravity="center"
             android:textSize="30sp"/>
 
         <Button
             android:id="@+id/btn_divide"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+                android:gravity="center"
             android:layout_marginLeft="5dp"
             android:text="/"
             android:textSize="30sp"/>
@@ -56,6 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
+                android:gravity="center"
             android:text="*"
             android:textSize="30sp"/>
 
@@ -79,6 +83,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
+                android:gravity="center"
             android:text="8"
             android:textSize="30sp"/>
 
@@ -87,6 +92,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
+                android:gravity="center"
             android:text="9"
             android:textSize="30sp"/>
 
@@ -95,6 +101,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
+                android:gravity="center"
             android:text="-"
             android:textSize="30sp"/>
 
@@ -103,6 +110,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+                  
         android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
@@ -110,6 +118,7 @@
             android:id="@+id/btn_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+                android:gravity="center"
             android:text="4"
             android:textSize="30sp"/>
 
@@ -119,6 +128,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:text="5"
+                android:gravity="center"
             android:textSize="30sp"/>
 
         <Button
@@ -127,6 +137,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:text="6"
+                android:gravity="center"
             android:textSize="30sp"/>
 
         <Button
@@ -135,6 +146,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:text="+"
+                android:gravity="center"
             android:textSize="30sp"/>
 
     </LinearLayout>
@@ -159,6 +171,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="1"
+                        android:gravity="center"
                     android:textSize="30sp"/>
 
                 <Button
@@ -167,6 +180,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:text="2"
+                        android:gravity="center"
                     android:textSize="30sp"/>
 
                 <Button
@@ -175,6 +189,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:text="3"
+                        android:gravity="center"
                     android:textSize="30sp"/>
 
             </LinearLayout>
@@ -190,6 +205,7 @@
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:text="0"
+                        android:gravity="center"
                     android:textSize="30sp"/>
 
                 <Button
@@ -199,6 +215,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_weight="18.10"
                     android:text="."
+                        android:gravity="center"
                     android:textSize="30sp"/>
 
 
